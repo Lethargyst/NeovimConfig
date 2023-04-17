@@ -7,9 +7,6 @@ vim.cmd("colorscheme kanagawa-wave")
 -- vim.cmd("colorscheme kanagawa-dragon")
 -- vim.cmd("colorscheme kanagawa-lotus")
 
-vim.wo.relativenumber = true
-vim.wo.cursorline = true
-vim.wo.cursorcolumn = true
 
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
@@ -18,7 +15,7 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 -- flutter
-require("flutter-tools").setup({})
+-- require("flutter-tools").setup({})
 
 -- indention
 vim.opt.list = true

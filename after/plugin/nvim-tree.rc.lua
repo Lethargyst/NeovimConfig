@@ -13,4 +13,3 @@ nvim_tree.setup({
 
 local opts = { noremap = true, silent = true }
 vim.keymap.set('n', '<C-n>', '<Cmd>NvimTreeOpen<CR>', opts)
-vim.keymap.set('n', '<C-m>', '<Cmd>NvimTreeClose<CR>', opts)
