@@ -73,6 +73,7 @@ packer.startup(function(use)
     },
   }
 
+  use 'mfussenegger/nvim-dap'
   -- indention
   use "lukas-reineke/indent-blankline.nvim"
 end)
