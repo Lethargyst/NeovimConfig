@@ -125,6 +125,11 @@ nvim_lsp.clangd.setup {
   capabilities = capabilities,
 }
 
+nvim_lsp.pyright.setup {
+  on_attach = on_attach,
+  capabilities = capabilities,
+}
+
 --[[ nvim_lsp.dartls.setup {
   on_attach = on_attach,
   capabilities = capabilities,

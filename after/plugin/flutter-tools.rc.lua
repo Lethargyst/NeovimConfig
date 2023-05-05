@@ -21,7 +21,10 @@ flutter_tools.setup({
     enabled = true,
     run_via_dap = true,
   },
-  outline = { auto_open = false },
+  outline = {
+    auto_open = false,
+    open_cmd = "45vnew",
+  },
   decorations = {
     statusline = { device = true, app_version = true },
   },
